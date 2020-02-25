@@ -1,0 +1,13 @@
+messages:
+  noPermissionPose: "&cYou don't have permission to run this command" # Message sent when player doesn't have permission to run /pose command. Variables: %%Sender%%. If you type the entire variable in lower case, inserted text will be also lower case. Same for upper case
+  noPermissionReload: "&cYou don't have permission to run this command" # Message sent when player doesn't have permission to run /posesreload command. Variables: %%Sender%%. If you type the entire variable in lower case, inserted text will be also lower case. Same for upper case
+  playersOnly: "&cYou must be a player to run this command" # Message sent when a non-player attempts to run /pose command. Variables: %%Sender%%. If you type the entire variable in lower case, inserted text will be also lower case. Same for upper case
+  pluginReloaded: "&aSteve's Series | Poses has successfully been reloaded" # Message sent when plugin has been successfully reloaded. Variables: %%Sender%%. If you type the entire variable in lower case, inserted text will be also lower case. Same for upper case
+  poseListEmpty: "&cNo poses are available" # Message sent when player doesn't have any poses available. Variables: %%Sender%%. If you type the entire variable in lower case, inserted text will be also lower case. Same for upper case
+  poseList: "&eAvailable poses: &6%%Available%%" # Message sent when player has poses available. Variables: %%Sender%% and %%Available%%. If you type the entire variable in lower case, inserted text will be also lower case. Same for upper case
+  unknownPose: "&cUnknown pose" # Message sent when player has entered a pose that doesn't exist. Variables: %%Sender%% and %%Pose%%. If you type the entire variable in lower case, inserted text will be also lower case. Same for upper case
+poses:
+  laying:
+    poseClass: "ru.ste.stevesseries.coreposelib.Laying" # Pose class
+    changedMessage: "&aYou are now laying" # Message sent when player has successfully changed their pose. Variables: %%Player%%. If you type the entire variable in lower case, inserted text will be also lower case. Same for upper case
+    noPermissionMessage: "&cYou don't have permission to use this pose" # Message sent when player doesn't have permission to use this pose. Variables: %%Player%%. If you type the entire variable in lower case, inserted text will be also lower case. Same for upper case

@@ -1,0 +1,23 @@
+name: SS-Poses
+version: @version@
+main: me.ste.stevesseries.poses.Poses
+api-version: "1.13"
+prefix: SS | Poses
+depend: [SS-Core-PoseLib]
+authors: [SteveTheEngineer]
+description: "Manual control for Steve's Series | Core: Pose Library"
+
+commands:
+  posesreload:
+    aliases: [prl]
+    description: Reload Poses
+  pose:
+    description: Set own pose
+
+permissions:
+  stevesseries.poses.reload:
+    default: op
+    description: Permission that is required to use /posesreload command
+  stevesseries.poses.pose:
+    default: true
+    description: Permission that is required to use /pose command
